@@ -1,0 +1,176 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+body {
+    margin: 0;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+.degreeContainer, .cv, .projectContainer {
+    margin-top: 7%;
+    display: flex;
+}
+.musicPlayer, .container, .filmsContainer {
+    margin-top: 5.5%;
+    display: flex;
+}
+.container {
+    justify-content: center;
+}
+.musicPlayer, .filmsContainer {
+    flex-direction: column;
+}
+.musicPlayer {
+    align-items: center;
+}
+.musicPlayer iframe {
+    box-shadow: #04d9ff 0 0 50px;
+    width: 50%;
+    text-align: center;
+}
+.musicPlayer div {
+    margin-top: 2%;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    background-image: url(../img/hero_photo.JPG);
+    width: 75%;
+    height: 700px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    font-family: 'Bungee Shade', cursive;
+    color: #04d9ff;
+    text-shadow: black 2px 0, black 0 2px, black -2px 0, black 0 -2px;
+    position: relative;
+}
+.hero-text h1, .hero-text h3 {
+    margin: 0;
+    font-size: 30px;
+}
+button {
+    position: absolute;
+    height: 5%;
+    border-radius: 15px;
+    bottom: 13%;
+    left: 40%;
+
+    font-weight: bold;
+    transition: transform 500ms;
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+}
+.cv {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.cv a {
+    text-decoration: none;
+    color: dimgray;
+    font-weight: bold;
+}
+.cv a:hover {
+    color: #1079B2;
+    transition: color 500ms;
+}
+.cv ul {
+    margin: 0;
+}
+.cv h5 {
+    font-size: 100%;
+}
+.listHeader {
+    list-style-type: none;
+}
+.list-content {
+    text-align: justify;
+}
+.cv-intro {
+    display: flex;
+    justify-content: space-between;
+}
+.certif-link {
+    margin: 0 16.5%;
+}
+.portrait {
+    height: 150px;
+    border-radius: 100%;
+    transition: transform 3s;
+}
+.portrait:hover {
+    transform: rotate(360deg);
+    transition: transform 5s;
+    box-shadow: #1079B2 6px 6px 25px, #1079B2 -6px -6px 25px;
+}
+.pitch {
+    text-align: justify;
+    width: 75%;
+    font-size: large;
+}
+.degrees, .projects, .filmsContainer {
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+}
+.degrees img {
+    width: 33%;
+    margin-bottom: 0.25%;
+}
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+.projects p {
+    text-align: center;
+    padding-bottom: 3%;
+}
+.projects img {
+    width: 100%;
+}
+.projectCard {
+    margin: auto 0.25%;
+    text-decoration: none;
+    color: #1079B2;
+    font-weight: bold;
+    background-color: white;
+    transform: scale(1);
+    transition: transform 250ms;
+    z-index: 0;
+}
+.degrees img:hover, .projectCard:hover {
+    box-shadow: #1079B2 1px 1px 20px, #1079B2 -1px -1px 20px;
+    transform: scale(1.15);
+    transition: transform 250ms;
+    z-index: 1;
+}
+
+.films-list, .films-cat {
+    list-style-type: none;
+}
+.films {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+}
+.films li {
+    margin: 0.5%;
+}
+.contenu {
+    text-align: center;
+}
+.constance-pic {
+    width: 75%;
+}

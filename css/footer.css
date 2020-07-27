@@ -1,0 +1,40 @@
+﻿footer {
+    margin-top: 1.5%;
+    margin-bottom: 0;
+
+    background-image: linear-gradient(to bottom right, #1079B2, black);
+    box-shadow: 0 -2px 8px black;
+}
+footer, footer a {
+    text-decoration: none;
+    color: #15abbe;
+    text-shadow: black 0 0 2px, black 0 0 4px, black 0 0 6px;
+    font-weight: bold;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+.footer p, .footer div {
+    width: 50%;
+    text-align: center;
+    margin: 2% 5%;
+}
+
+.icons img {
+    height: 35px;
+    border-radius: 100%;
+    transform: rotate(0deg) scale(1);
+    transition: transform 250ms;
+}
+.icons a:nth-child(odd) img:hover {
+    transform: rotate(45deg) scale(1.15);
+}
+.icons a:nth-child(even) img:hover {
+    transform: rotate(-45deg) scale(1.15);
+}
+.copyright {
+    font-size: 15px;
+    margin: 0 0 1% 5%;
+
+}
