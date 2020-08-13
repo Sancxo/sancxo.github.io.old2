@@ -129,8 +129,9 @@ button:hover {
 }
 .projects {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 1%;
+    flex-wrap: wrap;
 }
 .projects p {
     text-align: center;
@@ -140,6 +141,7 @@ button:hover {
     width: 100%;
 }
 .projectCard {
+    width: 20vw;
     margin: auto 0.25%;
     text-decoration: none;
     color: #1079B2;
